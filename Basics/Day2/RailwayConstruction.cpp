@@ -16,6 +16,7 @@ Input
 meaning except these connection we can connect any other combination of connection
 */
 
+// It occured to me that first i must learn the concept first and then try and solve this problem
 
 #include<bits/stdc++.h>
 using namespace std;
