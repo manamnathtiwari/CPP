@@ -41,7 +41,7 @@ Welcome to my **C++ playground**, where I document my adventure of learning **C+
 ## 🌟 How You Can Join In!
 - 👩‍💻 **Clone the Repo**  
    ```bash
-   git clone https://github.com/yourusername/cpp-chronicles.git
+   git clone https://github.com/manamnathtiwari/CPP.git
 
 
 🤝 Join the Journey!
