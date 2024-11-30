@@ -1,4 +1,4 @@
-//  Day 2 of learning C++ from scratch
+//  Day 1 of learning C++ from scratch
 //  Writing a CPP program to do mathematical basic operations 
 #include<iostream>
 #include<cmath>
