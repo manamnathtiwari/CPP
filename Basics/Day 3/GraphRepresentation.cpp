@@ -23,6 +23,25 @@ using namespace std;
 
 */
 
+void printMatrix(int matrix[5][5], int n) {
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+
+void printGraph(const vector<vector<int>> &adjList){
+    for (int i=0;i<adjList.size();i++){
+        cout<<i<<"->";
+        for(int j :adjList[i]){
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+}
+
 
 int main(){
 
@@ -31,6 +50,38 @@ int main(){
     */
 
    cout << "This Adjacency Matrix representation";
+
+   int n = 5; // Number of vertices
+    int matrix[5][5] = {0}; // Initialize with 0
+
+    // Adding edges
+    matrix[0][1] = 1;
+    matrix[1][2] = 1;
+    matrix[2][3] = 1;
+    matrix[3][4] = 1;
+    matrix[4][0] = 1;
+
+     // Print adjacency matrix
+    cout << "Adjacency Matrix:" << endl;
+    printMatrix(matrix, n);
+
+    cout << " The Adjacency List ";
+
+     vector<vector<int>> adjList(n);
+
+    // Adding edges (undirected graph)
+    adjList[0].push_back(1);
+    adjList[1].push_back(0);
+    adjList[1].push_back(2);
+    adjList[2].push_back(1);
+    adjList[2].push_back(3);
+    adjList[3].push_back(2);
+    adjList[3].push_back(4);
+    adjList[4].push_back(3);
+
+    // Print adjacency list
+    cout << "Adjacency List:" << endl;
+    printGraph(adjList);
    
 
     return 0;
