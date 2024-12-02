@@ -35,11 +35,23 @@ using namespace std;
 
 int main(){
 
-    // int long char float and double 
-    int a; long b; char c ; float d ; double e;
+// int long char float and double 
+    int a; long b; char ch ; float d ; double e;
     // cin>>a>>b>>c>>d>>e;
     // cout<<a<<endl<<b<<endl<<c<<endl<<d<<endl<<e<<endl;
-    scanf("%d%ld%c%f%lf",&a,&b,&c,&d,&e);
-    printf("%d\n%ld\n%c\n%f\n%lf\n",a,b,c,d,e);
+    scanf("%d%ld",&a,&b);
+    scanf(" %c",&ch);
+    scanf("%f",&d);
+    scanf("%lf",&e);
+    printf("%d\n%ld\n%c\n%f\n%lf\n",a,b,ch,d,e);
     return 0;
+    /* 
+    Things learnt in this problem 
+    -> When you use scanf for reading a char, it might read a stray newline character left in the input buffer by previous scanf calls.
+    This happens because %c does not skip whitespace characters.
+    
+    Fix
+    Hence you can give " %c" instead of "%c".
+    
+    */
 }
