@@ -19,7 +19,8 @@ int main(){
     cout<<"Your game is loading..........\n\n\n\n";
     cout<< "Symbols \n 1. for Rock \n 2 for Paper \n 3 for Scissor\n";
     points = 0;
-
+    // Yeah babe this logic is just build upon the if else or conditional logic it's a never ending need to give default and exit options too ;
+    // For now this game is amazing it's a continous and a bit fun too ; if you want to stop control + c works fine . Lol
     do{
         cout<< "Rock , Paper or Scissor";
         random = distrib(gen);
