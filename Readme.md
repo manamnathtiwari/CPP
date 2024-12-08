@@ -44,6 +44,10 @@ Welcome to my **C++ playground**, where I document my adventure of learning **C+
    git clone https://github.com/manamnathtiwari/CPP.git
 
 
+YouTube Resources Used :
+1. Bare Basics : https://youtube.com/playlist?list=PLauivoElc3gh48CgP4cQPrC1wrpAqY9cf&si=iPLZVM4V1wA36KBn
+
+
 🤝 Join the Journey!
 1. Star 🌟 the repo if it made you smile (or scratch your head , lol).
 2. Fork 🍴 the repo and add your own twist to my code.
