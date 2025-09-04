@@ -27,7 +27,7 @@ int main() {
     // Prefix sum on difference array
     for (ll i = 1; i <= n; ++i) {
         operations[i] += operations[i - 1];
-    }
+    }a
 
     // Apply operations to the original array
     for (ll i = 1; i <= n; ++i) {
