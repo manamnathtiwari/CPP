@@ -55,7 +55,7 @@ int main() {
         for (int i = n - 1; i >= 0; --i) {
             dmax[i] = b[j] - a[i];
             if (i > 0 && b[i - 1] < a[i]) {
-
+                j = i - 1;
             }
         }
         // Printing dmax
